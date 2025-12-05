@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drumset!!!</title>
+</head>
+<body>
+    <img src="assets/images/crash.png" alt="crash cymbal" id="crashId">
+    <img src="assets/images/kick.png" alt="kickdrum" id="kickId">
+    <img src="assets/images/snare.png" alt="snareDrum" id="snareId">
+    <img src="assets/images/tom1.png" alt="tom1" id="tom1Id">
+    <img src="assets/images/tom2.png" alt="tom2"id="tom2Id">
+    <img src="assets/images/tom3.png" alt="tom3" id="tom3Id">
+    <img src="assets/images/tom4.png" alt="floortom" id="tom4Id">
+
+    <script>
+        let crashCym = document.getElementById("crashId");
+        crashCym.addEventListener('click', hitCrash);
+
+        function hitCrash(){
+            let crashSound = new Audio("assets/sounds/crash.mp3");
+            crashSound.play();
+        }
+
+        let kickDrum = document.getElementById("kickId");
+        kickDrum.addEventListener('click', hitKick);
+        function hitKick(){
+            let kickSound = new Audio("assets/sounds/kick-bass.mp3")
+            kickSound.play();
+        }
+
+        let snareDrum = document.getElementById("snareId");
+        snareDrum.addEventListener('click', hitSnare);
+        function hitSnare(){
+            let snareSound = new Audio("assets/sounds/snare.mp3")
+            snareSound.play();
+        }
+        let tom1 = document.getElementById("tom1Id")
+        tom1.addEventListener('click', hitTom1
+        );
+        function hitTom1(){
+            let tom1Sound = new Audio("assets/sounds/tom-1.mp3")
+            tom1Sound.play();
+        }
+                let tom2 = document.getElementById("tom2Id")
+        tom2.addEventListener('click', hitTom2
+        );
+        function hitTom2(){
+            let tom2Sound = new Audio("assets/sounds/tom-2.mp3")
+            tom2Sound.play();
+        }
+
+        let tom3 = document.getElementById("tom3Id")
+        tom3.addEventListener('click', hitTom3
+        );
+        function hitTom3(){
+            let tom3Sound = new Audio("assets/sounds/tom-3.mp3")
+            tom3Sound.play();
+        }
+
+        let tom4 = document.getElementById("tom4Id")
+        tom4.addEventListener('click', hitTom4
+        );
+        function hitTom4(){
+            let tom4Sound = new Audio("assets/sounds/tom-4.mp3")
+            tom4Sound.play();
+        }
+    </script>
+</body>
+</html>

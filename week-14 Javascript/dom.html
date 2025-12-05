@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .aqua {
+            background-color:aquamarine
+        }
+    </style>
+</head>
+<body>
+    <div id="entireBody">
+        <p id="firstParagraph"> paragraph
+        </p>
+        <h1 id="firstHeader">header</h1>
+        <ul class ="aqua">
+            <li>list 1</li>
+            <li> list 2</li>
+            <li> list 3</li>
+            
+        </ul>
+    </div>
+    <script>
+        let firstH = document.getElementById("firstHeader");
+        firstH.innerText ="Now this says something else";
+        firstH.style.backgroundColor = "blue"
+    </script>
+</body>
+</html>

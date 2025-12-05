@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>playlist</h1>
+    <p>Make is so that when you click on something you hear something</p>
+
+    <ul>
+        <li id="firstSong">1</li>
+        <li id="secondSong">2</li>
+        <li>3</li>
+
+    </ul>
+    <script>
+        let firstElement = document.getElementById("firstSong");
+        firstElement.addEventListener('click', playFirstSong);
+
+        function playFirstSong(){
+            let importedSong = new Audio("Audio/Communications.mp3")
+            importedSong.play();
+        }
+    </script>
+</body>
+</html>

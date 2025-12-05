@@ -1,0 +1,22 @@
+        h1 {
+            background-color: beige; color: brown;
+        }
+        p {
+            color:white;
+            font-family: cursive;
+            font-size: large;
+            
+        }
+        body {
+            background-color: gray;
+            border: solid red;
+        }
+        li {
+            color: white;
+            font-family: cursive;
+        }
+        h5 {
+            color: white;
+        }
+        
+        

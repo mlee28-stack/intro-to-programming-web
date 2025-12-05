@@ -1,0 +1,1 @@
+console.log ("Now JS is running in another file")
